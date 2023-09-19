@@ -63,17 +63,15 @@ alert(
 );
 ("use strict");
 
-// Function to toggle the image visibility
+
 function toggleImageVisibility() {
   let image = document.getElementById("myImage");
   if (image.style.display === "none" || image.style.display === "") {
-    image.style.display = "block"; // Show the image
+    image.style.display = "block"; 
   } else {
-    image.style.display = "none"; // Hide the image
+    image.style.display = "none"; 
   }
 }
 
-// Add a click event listener to the button to toggle image visibility
-document
   .getElementById("InAndOut")
   .addEventListener("click", toggleImageVisibility);
