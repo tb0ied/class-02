@@ -22,22 +22,34 @@ header {
   padding: 20px;
 }
 
-main,
-section,
-h2,
-p,
-button {
+main {
   padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-h1 {
-  font-size: 3rem;
 }
 
 button:hover {
